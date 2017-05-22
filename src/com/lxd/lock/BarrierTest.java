@@ -42,5 +42,6 @@ public class BarrierTest {
         for(int i = 0;i < N;i++){
             new Writer(cyclicBarrier).start();
         }
+        System.out.println("git test");
     }
 }
